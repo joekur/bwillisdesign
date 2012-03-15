@@ -4,3 +4,4 @@ cgi-bin/
 error_log
 *log
 .htaccess
+.idea/
