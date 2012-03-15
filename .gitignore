@@ -1,0 +1,6 @@
+_private/
+_vti*
+cgi-bin/
+error_log
+*log
+.htaccess
