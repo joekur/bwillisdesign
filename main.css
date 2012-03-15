@@ -1,3 +1,38 @@
+.clear {
+	clear: both;
+}
+
 #navbar {
-	background: blue;
+	margin-top: 80px;
+	float: left;
+	width: 353px;
+}
+
+#logo {
+	margin-bottom: 50px;
+}
+
+#navbar a {
+	display: block;
+	text-align: right;
+	margin-top: 20px;
+}
+
+#content {
+	width: 660px;
+	float: left;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 290px;
+}
+
+a.project-thumbnail {
+	display: block;
+	float: left;
+	margin: 0 15px 15px 0;
+	text-decoration: none;
+}
+
+a.project-thumbnail img {
+	display: block;
 }
