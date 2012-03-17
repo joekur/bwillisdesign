@@ -19,7 +19,7 @@
 }
 
 #content {
-	width: 660px;
+	width: 800px;
 	float: left;
 	vertical-align: top;
 	margin-left: 20px;
@@ -36,4 +36,26 @@ a.project-thumbnail {
 
 a.project-thumbnail img {
 	display: block;
+}
+
+
+
+/* --------- SLIDESHOW ----------- */
+
+.big-picture {
+	width: 600px;
+	height: 400px;
+	background: #888;
+	float: left;
+}
+
+.slideshow-sidebar {
+	float: left;
+}
+
+.slideshow-thumbnail {
+	width: 80px;
+	height: 80px;
+	margin: 0 0 15px 15px;
+	background: #888;
 }
