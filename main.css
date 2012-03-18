@@ -2,6 +2,10 @@
 	clear: both;
 }
 
+:focus {
+	outline: none;
+}
+
 #navbar {
 	margin-top: 80px;
 	float: left;
@@ -42,7 +46,7 @@ a.project-thumbnail img {
 
 /* --------- SLIDESHOW ----------- */
 
-.big-picture {
+.slideshow-screen {
 	width: 600px;
 	height: 400px;
 	background: #888;
@@ -50,12 +54,24 @@ a.project-thumbnail img {
 	position: relative;
 }
 
-.big-picture img {
+.picture-container {
+	width: 600px;
+	height 400px;
+	position: absolute;
+	display: none;
+}
+
+.picture-container.active {
+	display: block;
+}
+
+img.big-picture {
 	max-width: 600px;
 	max-height: 400px;
-	display: none;
+	display: block;
 	margin: 0 auto;
 }
+
 
 .slideshow-sidebar {
 	float: left;
@@ -64,11 +80,36 @@ a.project-thumbnail img {
 .slideshow-thumbnail {
 	width: 80px;
 	height: 80px;
-	margin: 0 0 15px 15px;
-	background: #888;
+	background: black;
+
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+	
 	cursor: pointer;
 	display: block;
 }
+
+.slideshow-thumbnail:hover {
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+
+.thumb-container.active .slideshow-thumbnail {
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+
+.thumb-container {
+	width: 80px;
+	height: 80px;
+	background: black;
+	margin: 0 0 15px 15px;
+}
+
 
 
 /* --------- PROJECTS ----------- */

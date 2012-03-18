@@ -8,19 +8,38 @@ $images = array('sleepy-panda.jpg', 'tall-panda.jpg', 'wide-panda.jpg');
 
 <div class="slideshow">
 	
-	<div class="big-picture">
+	<div class="slideshow-screen">
 		
-		<img src="/img/projects/one.jpg" />
+		<? $ind = 0; ?>
+		<? foreach($images as $image) { ?>
+			<? $image_path = "/img/projects/" . $image; ?>
+			
+			<? if ($ind==0) { ?>
+				<div class="picture-container active">
+			<? } else { ?>
+				<div class="picture-container">
+			<? } ?>
+				<img src=<?= $image_path ?> class="big-picture" />
+			</div>
+			<? $ind++ ?>
+		<? } ?>
 		
 	</div>
 	
 	<div class="slideshow-sidebar">
 		
+		<? $ind = 0; ?>
 		<? foreach($images as $image) { ?>
-			<? $image_path = "/img/projects/" . $image; ?>
 			<? $path_parts = pathinfo($image); ?>
 			<? $thumb_path = "/img/projects/thumbs/" . $path_parts['filename'] . "_thumb." . $path_parts['extension']; ?>
-			<img class="slideshow-thumbnail" src=<?= $thumb_path ?> />
+			<? if ($ind == 0) { ?>
+				<div class="thumb-container active">
+			<? } else { ?>
+				<div class="thumb-container">
+			<? } ?>
+				<img class="slideshow-thumbnail" src=<?= $thumb_path ?> />
+			</div>
+			<? $ind++; ?>
 		<? } ?>
 		
 	</div>
