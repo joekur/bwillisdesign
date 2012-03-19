@@ -16,7 +16,9 @@ $(document).ready( function() {
 		var myContainer = $(this).parent();
 		myContainer.css('visibility', 'visible').hide();
 		if (picContainers.index(myContainer) == 0) {
-			myContainer.show();
+			setTimeout(function() {
+				myContainer.fadeIn(600);
+			}, 500);
 		}
 	});
 	
