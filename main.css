@@ -1,3 +1,7 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .clear {
 	clear: both;
 }
@@ -40,6 +44,31 @@ a.project-thumbnail {
 
 a.project-thumbnail img {
 	display: block;
+}
+
+.slideshow-bottom {
+	clear: both;
+	width: 600px;
+	position: relative;
+	padding-top: 10px;
+}
+
+.left-arrow,
+.right-arrow {
+	cursor: pointer;
+	width: 82px;
+	height: 23px;
+}
+
+.left-arrow {
+	background: url('/img/BackButton.jpg');
+}
+
+.right-arrow {
+	background: url('/img/NextButton.jpg');
+	position: absolute;
+	right: 0;
+	top: 10px;
 }
 
 
@@ -120,4 +149,10 @@ img.big-picture {
 
 .project-content {
 	clear: both;
+	width: 600px;
+	padding-top: 60px;
+}
+
+p.project-head {
+	font-weight: bold;
 }
