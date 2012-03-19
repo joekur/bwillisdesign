@@ -31,7 +31,7 @@ body {
 	float: left;
 	vertical-align: top;
 	margin-left: 20px;
-	margin-top: 290px;
+	margin-top: 287px;
 	margin-bottom: 130px;
 }
 
@@ -150,7 +150,7 @@ img.big-picture {
 .project-content {
 	clear: both;
 	width: 600px;
-	padding-top: 60px;
+	padding-top: 40px;
 }
 
 p.project-head {

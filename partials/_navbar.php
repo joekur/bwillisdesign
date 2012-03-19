@@ -8,7 +8,7 @@
 	<a href="/doc/Resume.pdf" target="_blank">
 		<img src="/img/navbar/Resume_MenuButton.jpg" alt="resume" />
 	</a>
-	<a href="/aboutpage.html" class="nav_icon">
+	<a href="/aboutpage.php" class="nav_icon">
 		<img src="/img/navbar/AboutMe_MenuButton.jpg" />
 	</a>
 </div>
