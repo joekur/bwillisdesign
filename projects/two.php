@@ -18,15 +18,11 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		University Magazine - Construction Addition<br>
-		Print, Photography<br>
-		9.25x12"
+		This is my second project
 	</p>
 	
 	<p>
-		The sample magazine consists of a cover plus three spreads. The integration 
-		of text and image is achieved using original photography, a structured grid 
-		and a sense of hierarchy.
+		Description about my project
 	</p>
 	
 </div>

@@ -10,6 +10,10 @@ body {
 	outline: none;
 }
 
+a img {
+	border: none;
+}
+
 #navbar {
 	margin-top: 80px;
 	float: left;
@@ -93,10 +97,6 @@ a.project-thumbnail img {
 	visibility: hidden;
 }
 
-.picture-container:first-child {
-	visibility: visible;
-}
-
 .picture-container.active {
 	
 }
@@ -144,6 +144,15 @@ img.big-picture {
 	height: 80px;
 	background: black;
 	margin: 0 0 15px 15px;
+	border: 2px solid #CCC;
+	
+	transition: border-color 0.5s;
+	-moz-transition: border-color 0.5s; /* Firefox 4 */
+	-webkit-transition: border-color 0.5s; /* Safari and Chrome */
+	-o-transition: border-color 0.5s; /* Opera */
+}
+.thumb-container.active {
+	border-color: #bd282e;
 }
 
 

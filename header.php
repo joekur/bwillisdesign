@@ -5,10 +5,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>BWillis Design</title>
-	<link href="/main.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="/main.css?v=2" rel="stylesheet" type="text/css" media="screen" />
 
 </head>
-	
+
 <body>
 	
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/partials/_navbar.php"); ?>

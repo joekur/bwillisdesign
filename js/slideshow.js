@@ -17,7 +17,9 @@ $(document).ready( function() {
 		myContainer.css('visibility', 'visible').hide();
 		if (picContainers.index(myContainer) == 0) {
 			setTimeout(function() {
-				myContainer.fadeIn(600);
+				myContainer.fadeIn(600, function() {
+					$('.slideshow-screen').css('background-image', 'none');
+				});
 			}, 500);
 		}
 	});
