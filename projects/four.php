@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('HabitacionLogo.jpg', 'ColorSwatches.png', 'HabitacionHandout.jpg');
+$images = array('cartoonmag.png', 'flatcartoonspread.png', 'scannedcartoon.png');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,15 +18,13 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		Habitación–Furniture Store Campaign<br>
-		Print <br>
+		Sports Magazine Spread<br>
+		Print, Illustation <br>
 		
 	</p>
 	
 	<p>
-		Branding for Habitación was accomplished by creating a unique, identifying logo that captures its modern 
-		attributes while using a color pallet that keeps the warmness. While the focus was on the logo itself, other 
-		pieces were made to show a unifying use of type and color. 
+		ESPN
 	</p>
 	
 </div>

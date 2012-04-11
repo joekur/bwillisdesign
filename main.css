@@ -31,7 +31,7 @@ a img {
 }
 
 #content {
-	width: 800px;
+	width: 810px;
 	float: left;
 	vertical-align: top;
 	margin-left: 20px;
@@ -44,10 +44,31 @@ a.project-thumbnail {
 	float: left;
 	margin: 0 15px 15px 0;
 	text-decoration: none;
+	background: black;
+	border: 1px solid white;
+	
+	transition: border-color 0.5s;
+	-moz-transition: border-color 0.5s; /* Firefox 4 */
+	-webkit-transition: border-color 0.5s; /* Safari and Chrome */
+	-o-transition: border-color 0.5s; /* Opera */
+}
+a.project-thumbnail:hover {
+	border-color: red;
 }
 
 a.project-thumbnail img {
 	display: block;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+	
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+a.project-thumbnail img:hover {
+	opacity: 1.0;
+	filter:alpha(opacity=100);
 }
 
 .slideshow-bottom {
@@ -82,7 +103,7 @@ a.project-thumbnail img {
 .slideshow-screen {
 	width: 600px;
 	height: 400px;
-	background-color: #505050;
+	background-color: #FFFFFF;
 	background-image: url('/img/ajax-loader.gif');
 	background-position: center;
 	background-repeat: no-repeat;

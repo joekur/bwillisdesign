@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('HabitacionLogo.jpg', 'ColorSwatches.png', 'HabitacionHandout.jpg');
+$images = array('typeposters.png', 'typeposterone.png', 'typepostertwo.png');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,7 +18,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		Habitación–Furniture Store Campaign<br>
+		Typographical Poster Set<br>
 		Print <br>
 		
 	</p>

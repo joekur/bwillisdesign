@@ -15,31 +15,31 @@ $project = "three";
 include("partials/_project_thumbnail.html.php");
 
 $img_src = "img/projects/previews/cartoonpreview.jpg";
-$project = "one";
+$project = "four";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/typeposterpreview.jpg";
+$project = "five";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/bookcoverpreview.jpg";
+$project = "six";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/wintermixpreview.jpg";
+$project = "seven";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/childrensbookpreview.jpg";
+$project = "eight";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/oilpaintpreview.jpg";
+$project = "nine";
 include("partials/_project_thumbnail.html.php");
 
-$img_src = "img/image.png";
-$project = "one";
+$img_src = "img/projects/previews/outdoormagpreview.jpg";
+$project = "10";
 include("partials/_project_thumbnail.html.php");
 
 ?>

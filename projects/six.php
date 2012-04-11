@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('HabitacionLogo.jpg', 'ColorSwatches.png', 'HabitacionHandout.jpg');
+$images = array('HabitacionLogo.jpg', 'ColorSwatches.jpg', 'HabitacionHandout.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
