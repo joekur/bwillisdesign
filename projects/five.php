@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('typeposters.png', 'typeposterone.png', 'typepostertwo.png');
+$images = array('typeposters.jpg', 'typeposterone.jpg', 'typepostertwo.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,16 +18,18 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		Typographical Poster Set<br>
-		Print <br>
+		Baskerville Poster Spread<br>
+		13×23″<br>
+		Adobe Indesign<br>
+		
 		
 	</p>
 	
 	<p>
-		Branding for Habitación was accomplished by creating a unique, identifying logo that captures its modern 
-		attributes while using a color pallet that keeps the warmness. While the focus was on the logo itself, other 
-		pieces were made to show a unifying use of type and color. 
-	</p>
+		The spread was created to present information on the Baskerville typeface using hierarchy and grids in a clean, stylistic way.<br>
+		<br>
+		The challange was to create an eye-catching poster set without using images while incorporating only the Baskerville typeface. 
+
 	
 </div>
 

@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('cartoonmag.jpg', 'cartoonspread.jpg', 'scannedcartoon.jpg');
+$images = array('folderpic.jpg', 'folder.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,15 +18,20 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		11×17″<br>
-		Print, Illustration<br>
-		Adobe Illustrator, Indesign, Photoshop
+		Children’s Booklet<br>
+		6×6″<br>
+		Adobe Indesign, Illustrator, Photoshop<br>
 		
 	</p>
 	
 	<p>
-		This project was executed by hand drawing the illustration and then creating an appropriate page layout. 
-		It integrates the use of multiple design programs as well as close attention to the technicalities of the body copy.
+		The booklet was designed as an educational guide through the human digestive system. 
+		It is geared toward a young audience by its style of writing and it’s minimalistic design.<br>
+		<br>
+		The design required innovation, the use of multiple design programs, 
+		the use of grids, hierarchy and color, and the combining of text and images. The objective was to create 
+		the guide by first deciding upon a “travel destination” and then by engineering a prototype followed by a 
+		digital template of the booklet.
 	</p>
 	
 </div>

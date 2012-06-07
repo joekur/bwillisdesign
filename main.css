@@ -1,5 +1,6 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	width: 1090px;
 }
 
 .clear {
@@ -31,11 +32,11 @@ a img {
 }
 
 #content {
-	width: 810px;
+	width: 710px;
 	float: left;
 	vertical-align: top;
 	margin-left: 20px;
-	margin-top: 287px;
+	margin-top: 122px;
 	margin-bottom: 130px;
 }
 
@@ -53,7 +54,7 @@ a.project-thumbnail {
 	-o-transition: border-color 0.5s; /* Opera */
 }
 a.project-thumbnail:hover {
-	border-color: red;
+	border-color: white;
 }
 
 a.project-thumbnail img {
@@ -165,7 +166,7 @@ img.big-picture {
 	height: 80px;
 	background: black;
 	margin: 0 0 15px 15px;
-	border: 2px solid #CCC;
+	border: 2px solid #fff;
 	
 	transition: border-color 0.5s;
 	-moz-transition: border-color 0.5s; /* Firefox 4 */
@@ -173,7 +174,7 @@ img.big-picture {
 	-o-transition: border-color 0.5s; /* Opera */
 }
 .thumb-container.active {
-	border-color: #bd282e;
+	border-color: #000;
 }
 
 

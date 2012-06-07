@@ -39,7 +39,7 @@ $project = "nine";
 include("partials/_project_thumbnail.html.php");
 
 $img_src = "img/projects/previews/outdoormagpreview.jpg";
-$project = "10";
+$project = "ten";
 include("partials/_project_thumbnail.html.php");
 
 ?>

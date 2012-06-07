@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('cartoonmag.jpg', 'cartoonspread.jpg', 'scannedcartoon.jpg');
+$images = array('winterpic_one.jpg', 'winterpic_two.jpg', 'winterpic_three.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,15 +18,17 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		11×17″<br>
-		Print, Illustration<br>
-		Adobe Illustrator, Indesign, Photoshop
+		Sledding Portraits<br>
+		7×10″ <br>
+		Camera Raw, Photoshop<br>
+		 
 		
 	</p>
 	
 	<p>
-		This project was executed by hand drawing the illustration and then creating an appropriate page layout. 
-		It integrates the use of multiple design programs as well as close attention to the technicalities of the body copy.
+		Images were part of a portrait series in which I experimented with different camera 
+		settings including aperture, shutter-speed and depth of field. In order to acheive a photojournalist
+		approach editing was kept to a minimum. 
 	</p>
 	
 </div>

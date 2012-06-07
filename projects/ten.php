@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('cartoonmag.jpg', 'cartoonspread.jpg', 'scannedcartoon.jpg');
+$images = array('gandermnt.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,15 +18,13 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		11×17″<br>
-		Print, Illustration<br>
-		Adobe Illustrator, Indesign, Photoshop
+		Gander Mnt. Advertisement<br>
+		Photography <br>
 		
 	</p>
 	
 	<p>
-		This project was executed by hand drawing the illustration and then creating an appropriate page layout. 
-		It integrates the use of multiple design programs as well as close attention to the technicalities of the body copy.
+		The intent was to make a very simple, common-seeming photograph into a usable, effective advertisement. 
 	</p>
 	
 </div>

@@ -5,7 +5,7 @@
 	<a href="/" class="nav_icon">
 		<img src="/img/navbar/Portfolio_MenuButton.jpg" />
 	</a>
-	<a href="/doc/Resume.pdf" target="_blank">
+	<a href="/doc/bwillis_resume.pdf" target="_blank">
 		<img src="/img/navbar/Resume_MenuButton.jpg" alt="resume" />
 	</a>
 	<a href="/aboutpage.php" class="nav_icon">

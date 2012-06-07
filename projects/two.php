@@ -9,7 +9,7 @@
 // Example files for:  $images = array('CoolImage.jpg');
 //     /img/projects/CoolImage.jpg
 //     /img/projects/thumbs/CoolImage_thumb.jpg
-$images = array('Metropoliscoverlarge.jpg', 'metropolisspread_one.jpg', 'metropolisspread_two.jpg', 'metropolisspread_three.jpg');
+$images = array('metropoliscoverlarge.jpg', 'metropolisspread_one.jpg', 'metropolisspread_two.jpg', 'metropolisspread_three.jpg');
 
 include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 ?>
@@ -18,15 +18,18 @@ include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 <div class="project-content">
 	
 	<p class="project-head">
-		Metropolis Magazine—University Addition
-		Print, photography
+	    2012 silver Addy award for photography<br>
+		<br>
+		Metropolis Magazine—University Addition<br>
+		9x10.75"<br>
+		Adobe Indesign, photoshop
 	
 		
 	</p>
 	
 	<p>
 		The magazine layout integrates type and image while working with in a specified grid. Hierarchy is used
-        to maintain readability.
+        to maintain readability. The intent was to make differing, yet coordinating pages within the article. 
 	</p>
 	
 </div>
